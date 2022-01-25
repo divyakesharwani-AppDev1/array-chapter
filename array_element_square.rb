@@ -13,4 +13,4 @@ user_string = gets.chomp
 user_numbers = user_string.split #makes the input string to array
 #p user_numbers
 
-p user_numbers[0].to_f**2
+p user_numbers[-2].to_f**2
