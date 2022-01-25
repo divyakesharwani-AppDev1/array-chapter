@@ -4,8 +4,10 @@
 # "Enter at least 2 numbers, separated by spaces:"
 # 2
 
-p "Enter at least 2 numbers, separated by spaces:"
+p "Enter at least 2 numbers, separated by spaces:"  # ask user to enter
+ 
+user_string = gets.chomp # user's entry is taken as string 
 
-user_string = gets.chomp
+user_numbers = user_string.split # string converted to array with comma sepearted and [] 
 
-user_numbers = user_string.split
+p user_numbers.count 
